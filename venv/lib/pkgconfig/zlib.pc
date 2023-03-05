@@ -1,0 +1,13 @@
+prefix=/Users/abhisheknagpal/Documents/My_Projects/new_ml_project/venv
+exec_prefix=/Users/abhisheknagpal/Documents/My_Projects/new_ml_project/venv
+libdir=/Users/abhisheknagpal/Documents/My_Projects/new_ml_project/venv/lib
+sharedlibdir=/Users/abhisheknagpal/Documents/My_Projects/new_ml_project/venv/lib
+includedir=/Users/abhisheknagpal/Documents/My_Projects/new_ml_project/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
